@@ -5,4 +5,4 @@ The sample solution for the button click counter example is in [this folder](./c
 ## NUSMods API
 The sample solution for the NUSMods API using fetch requests is in [this folder](./fake-nusmods).
 ## Other API
-Another example of a fetch request being used is present in this folder.
+Another example of a fetch request being used is present in [this folder](./reqres-demo).
