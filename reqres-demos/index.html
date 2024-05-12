@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./script.js"></script>
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>Demo fetch requests</h1>
+        <h2>PUT request</h2>
+
+        <p>Enter a number on the right and a title on the left to update the API</p>
+        <form action="" id="main-form">
+            <input type="number" id="num" min="1" step="1" placeholder="number" required>
+            <input id="title" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="status" id="submit-status"></div>
+
+        <hr>
+
+        <h2>GET request</h2>
+        <p>Enter a number in the field above to get a colour and see what it looks like</p>
+
+        <button id="getter">Get colour</button>
+        <div id="color-status"></div>
+        <div id="color-display"></div>
+    </body>
+</html>

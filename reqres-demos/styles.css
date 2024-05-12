@@ -1,0 +1,28 @@
+/*
+ Practice: Try adding your own styles to make the page look as you want it to
+ Try adding pseudoelement styling (what does a button look like when you hover over it, for example)
+ Try using both relative and absolute measurements to see the difference
+*/
+
+#color-display {
+    min-height: 10vh;
+}
+
+body {
+    text-align: center;
+}
+
+div, form, button {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+form {
+    margin-top: 2vh;
+    width: 50%;
+}
+
+div {
+    width: 50%;
+}
