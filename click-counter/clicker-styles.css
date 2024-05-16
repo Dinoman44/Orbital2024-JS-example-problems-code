@@ -6,7 +6,7 @@ h1 {
     font-variant: small-caps;
 }
 
-#clicker {
+button {
     width: 15vw;
     height: 5vw;
     font-size: x-large;
@@ -20,7 +20,7 @@ h1 {
 }
 
 /* when the button is clicked (or clicked-and-held) the style changes temporarily */
-#clicker:active {
+button:active {
     border: double black 4px;
     color: rgb(55, 79, 215);
     background-color: rgb(216, 221, 68);
