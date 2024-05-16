@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // note: event is deprecated, but still works
             // try instead to look at form validation functions
             // or try using this: arguments[0].preventDefault();
+            
             loadCourseData(courseCodeInput, courseDetailsContainer, errorMsg);
         }
     )
@@ -70,7 +71,7 @@ function loadCourseData(inputField, container, error) {
             // the preclusions
             if (data.preclusion) {
                 let preclu = document.createElement("p");
-                preclu.innerHTML = `<b>Prerequisite</b><br>${data.preclusion}`;
+                preclu.innerHTML = `<b>Preclusion</b><br>${data.preclusion}`;
                 container.appendChild(preclu);
             }
 
